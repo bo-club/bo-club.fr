@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BØ Sports Social Club — Site en construction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f3efe6;
+            background-image: 
+                linear-gradient(
+                    rgba(243, 239, 230, 0.75), 
+                    rgba(243, 239, 230, 0.75)
+                ),
+                url('fond-padel.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .logo-img {
+            width: 280px;
+            max-width: 80%;
+            margin-bottom: 30px;
+        }
+
+        .activites {
+            font-size: 1em;
+            font-weight: 600;
+            color: #636e4e;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .adresse {
+            font-size: 0.85em;
+            font-weight: 700;
+            color: #8c2a3c;
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #8c2a3c;
+            margin-bottom: 16px;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 1em;
+            font-weight: 1000;
+            color: #636e4e;
+            line-height: 1.7;
+            margin-bottom: 40px;
+            max-width: 480px;
+        }
+
+        .separator {
+            width: 60px;
+            height: 3px;
+            background: #8c2a3c;
+            border-radius: 2px;
+            margin-bottom: 40px;
+        }
+
+        .qr-section {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .qr-section h2 {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #8c2a3c;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
+        }
+
+        .qr-grid {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .qr-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .qr-item img {
+            width: 140px;
+            height: 140px;
+            border-radius: 12px;
+        }
+
+        .qr-label {
+            font-size: 0.85em;
+            font-weight: 600;
+            color: #636e4e;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 0.85em;
+            letter-spacing: 0.5px;
+            transition: transform 0.2s;
+            margin-top: 4px;
+        }
+
+        .btn:hover { transform: scale(1.05); }
+        .btn-apple { background: #636e4e; color: white; }
+        .btn-google { background: #636e4e; color: white; }
+        .btn-whatsapp { background: #636e4e; color: white; }
+
+        .instagram-section {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .instagram-section h2 {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #8c2a3c;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
+        }
+
+        .instagram-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #636e4e;
+            font-weight: 600;
+            font-size: 1em;
+            transition: color 0.2s;
+        }
+
+        .instagram-link:hover { color: #8c2a3c; }
+
+        .instagram-link svg {
+            width: 28px;
+            height: 28px;
+        }
+
+        footer {
+            color: #aaa;
+            font-size: 0.75em;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <img src="logo.png" alt="BØ Sports Social Club Logo" class="logo-img">
+
+    <div class="activites">Padel — Squash — Restauration ...</div>
+
+    <div class="adresse">
+        1 quai de la Loire — 37210 Rochecorbon<br>
+        02 47 36 97 24
+    </div>
+
+    <h1>🚧 Site en construction 🚧</h1>
+
+    <p class="subtitle">
+        En attendant, téléchargez notre application, pour réserver vos terrains, trouver des partenaires et suivre notre actualité.
+    </p>
+
+    <div class="separator"></div>
+
+    <div class="qr-section">
+        <h2> Scannez ou cliquez pour télécharger</h2>
+        <div class="qr-grid">
+
+            <div class="qr-item">
+                <img src="qrcode_appstore.png" alt="QR Code App Store">
+                
+                <a href="https://apps.apple.com/fr/app/b%C3%B8-sports-social-club/id6760754881" class="btn btn-apple" target="_blank">
+                    App store
+                </a>
+            </div>
+
+            <div class="qr-item">
+                <img src="qrcode_playstore.png" alt="QR Code Play Store">
+                    <a href="https://play.google.com/store/apps/details?id=com.livexperience.bosportsocialclub&hl=fr" class="btn btn-google" target="_blank">
+                    Google Play
+                </a>
+            </div>
+
+            <div class="qr-item">
+                <img src="qrcode_whatsapp.png" alt="QR Code WhatsApp">
+                <a href="https://chat.whatsapp.com/BZaauhtmDY18SO04hQZJ20" class="btn btn-whatsapp" target="_blank">
+                    WhatsApp
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="instagram-section">
+        <h2>Retrouvez-nous sur Instagram</h2>
+        <a href="https://www.instagram.com/bo_sports_social_club" class="instagram-link" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+            @bo_sports_social_club
+        </a>
+    </div>
+
+    <footer>© 2026 BØ Sports Social Club — bo-club.fr</footer>
+
+</div>
+</body>
+</html>
